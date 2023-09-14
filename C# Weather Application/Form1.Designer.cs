@@ -71,6 +71,7 @@
             this.searchBtn.Size = new System.Drawing.Size(60, 59);
             this.searchBtn.TabIndex = 1;
             this.searchBtn.UseVisualStyleBackColor = false;
+            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
             // 
             // label1
             // 
@@ -82,7 +83,6 @@
             this.label1.Size = new System.Drawing.Size(115, 39);
             this.label1.TabIndex = 2;
             this.label1.Text = "Type:";
-            this.label1.Click += new System.EventHandler(this.lab1_Click);
             // 
             // label2
             // 
@@ -276,7 +276,7 @@
             this.Controls.Add(this.searchBtn);
             this.Controls.Add(this.locationInput);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Weather Application";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
