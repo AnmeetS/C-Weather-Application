@@ -16,5 +16,10 @@ namespace C__Weather_Application
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
