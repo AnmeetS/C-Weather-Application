@@ -21,5 +21,10 @@ namespace C__Weather_Application
         {
 
         }
+
+        private void lab1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
